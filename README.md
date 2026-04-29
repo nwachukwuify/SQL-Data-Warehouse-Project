@@ -1,15 +1,15 @@
-# Project Overview
+## Project Overview
 This project delivers an end-to-end data warehousing and business intelligence solution for a supermarket retail business. Raw transactional data from CSV files is ingested, transformed, and loaded into a structured SQL Server data warehouse following a dimensional modelling approach. The warehouse serves as the single source of truth for BI dashboards and analytical reports that support data-driven decisions across sales, product, customer, and operational domains.
 
 The project is split into two core parts:
 Data Engineering — designing and building the warehouse, ETL pipeline, and dimensional model
 BI & Analytics — defining KPIs, building reports, and answering key business questions
 
-# Data Source
+## Data Source
 The source data is a flat CSV file containing supermarket point-of-sale (POS) transaction records with the following columns:
 InvoiceID, Branch, City, CustomerType, Gender, ProductLine, UnitPrice, Quantity, Tax(5%),Sales, Date, Payment, Cogs(Cost of goods sold), Rating(1–10)
 
-# Project Requirements
+## Project Requirements
 Business Requirements - The business requires a centralised, reliable data platform that enables:
 
 - Consolidated reporting across all branches, cities, product lines, and customer segments from a single source of truth.
@@ -20,7 +20,7 @@ Business Requirements - The business requires a centralised, reliable data platf
 - Self-service BI so that business stakeholders can access dashboards without requiring direct SQL access.
 
 ## Data Engineering: Building the Data Warehouse
-# Objectives
+### Objectives
 The data engineering phase aims to:
 
 - Design a dimensional model (star schema) optimised for analytical querying in SQL Server
@@ -30,7 +30,7 @@ The data engineering phase aims to:
 
 
 ## BI & Analytics: Reporting and Insights
-# Objectives
+### Objectives
 The BI and analytics phase aims to:
 
 - Connect Power BI to the SQL Server presentation layer and build interactive dashboards
@@ -38,5 +38,5 @@ The BI and analytics phase aims to:
 - Enable self-service exploration of sales, product, customer, and operational data
 - Answer the critical business questions that drive commercial decisions
 
-# License
+### License
 This project is licensed under the MIT License. You are free to use, modify and share this project with proper attribution.
