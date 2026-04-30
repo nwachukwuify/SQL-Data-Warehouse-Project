@@ -30,3 +30,6 @@ FROM silver.sales_SuperMarket_Analysis
 SELECT Branch
 FROM silver.sales_SuperMarket_Analysis
 WHERE Branch != TRIM(Branch)
+
+--to confirm the change of datatype for SalesDate column from String to Date
+EXEC sp_help 'silver.sales_SuperMarket_Analysis';
