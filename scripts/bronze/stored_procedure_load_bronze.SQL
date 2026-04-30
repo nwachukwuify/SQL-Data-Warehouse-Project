@@ -22,6 +22,7 @@ BEGIN
 		PRINT 'Loading bronze layer'
 		PRINT '============================='
 
+		--loading bronze.sales_SuperMarket_Analysis
 		SET @start_time = GETDATE()                  --to get the start time the table started loading
 		PRINT '>> Truncating Table: bronze.sales_SuperMarket_Analysis'
 		PRINT '>> Inserting data into: bronze.sales_SuperMarket_Analysis'
@@ -37,13 +38,16 @@ BEGIN
 		MAXERRORS = 100,
 		TABLOCK
 		)
+
+		SET @end_time = GETDATE()                 --to get the start time the table loading ended
+		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds'
+
 		SET @batch_end_time = GETDATE()           --to get the start time the batch loading ended
 		PRINT '========================================='
 		PRINT 'Bronze layer loading completed'
 		PRINT '>> Total Load Duration: ' + CAST(DATEDIFF(second, @batch_start_time, @batch_end_time) AS NVARCHAR) + ' seconds'
 		PRINT '========================================='
-		SET @end_time = GETDATE()                 --to get the start time the table loading ended
-		PRINT '>> Load Duration: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds'
+		
 	END TRY
 	BEGIN CATCH
 		PRINT '========================================='
@@ -52,3 +56,6 @@ BEGIN
 		PRINT '========================================='
 	END CATCH
 END
+
+
+
