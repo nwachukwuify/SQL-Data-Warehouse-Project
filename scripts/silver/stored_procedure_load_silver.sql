@@ -55,7 +55,7 @@ BEGIN
 		Quantity,
 		Tax5Percent,
 		Sales, 
-		SalesDate, 
+		CONVERT(DATE, SalesDate, 105) AS SalesDate, 
 		Payment,
 		Cogs, 
 		Rating
