@@ -28,7 +28,7 @@ The data engineering phase aims to:
 - Enforce data quality rules including deduplication, null handling, type casting, and referential integrity
 - Provide a clear documentation of the data model to support both business and analytics teams
   
-  ![Data Warehouse Archtiecture](docs/Data_Architecture DW.png)
+ docs/Data_Architecture DW.png
 
 ## BI & Analytics: Reporting and Insights
 ### Objectives
