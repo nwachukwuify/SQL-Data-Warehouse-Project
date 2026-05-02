@@ -23,11 +23,11 @@ Business Requirements - The business requires a centralised, reliable data platf
 ### Objectives
 The data engineering phase aims to:
 
-- Design a dimensional model (star schema) optimised for analytical querying in SQL Server
 - Build a data warehouse using the medallion architecture: Bronze → Silver (Cleansed) → Gold (Integration & Aggregation)
+- Design a dimensional model (star schema) optimised for analytical querying in SQL Server
 - Enforce data quality rules including deduplication, null handling, type casting, and referential integrity
 - Provide a clear documentation of the data model to support both business and analytics teams
-
+  !(docs/data_architecture DW.png)
 
 ## BI & Analytics: Reporting and Insights
 ### Objectives
