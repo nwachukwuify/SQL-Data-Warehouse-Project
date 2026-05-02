@@ -30,6 +30,11 @@ The data engineering phase aims to:
   
  ![Dataware Architecture](docs/Data_Architecture_DW.png)
 
+ ## Dataflow
+
+ 
+ 
+
 ## BI & Analytics: Reporting and Insights
 ### Objectives
 The BI and analytics phase aims to:
@@ -38,6 +43,7 @@ The BI and analytics phase aims to:
 - Surface key business KPIs in a clear, executive-friendly format
 - Enable self-service exploration of sales, product, customer, and operational data
 - Answer the critical business questions that drive commercial decisions
+   ![Star Schema](docs/Star_Schema.png)
 
 ## Technical Specifications
 Database - Microsoft SQL Server
