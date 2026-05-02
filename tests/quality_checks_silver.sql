@@ -14,6 +14,11 @@ Note: Only run these checks after data loading into silver layer. Also, investig
 SELECT *
 FROM silver.sales_SuperMarket_Analysis
 
+--made an update to 'city'column 
+UPDATE silver.sales_SuperMarket_Analysis
+SET City = 'Port Harcourt'
+WHERE City = 'Portharcourt';
+
 --to check for duplicates or null values in the primary key 'InvoiceID' 
 --Expectation: No results
 SELECT InvoiceID, count(*)
