@@ -38,5 +38,8 @@ The BI and analytics phase aims to:
 - Enable self-service exploration of sales, product, customer, and operational data
 - Answer the critical business questions that drive commercial decisions
 
+## Technical Specifications
+ComponentTechnologyDatabaseMicrosoft SQL Server (2019 or later)ETL MethodT-SQL scripts / SSIS (SQL Server Integration Services)Data ModellingStar Schema — Kimball dimensional modelling methodologySource FormatCSV (flat file)Version ControlGit / GitHubQuery LanguageT-SQLBI Tool Micorosft Power BI (connected via Import mode)
+
 ### License
 This project is licensed under the MIT License. You are free to use, modify and share this project with proper attribution.
