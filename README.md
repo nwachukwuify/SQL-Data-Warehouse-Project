@@ -32,7 +32,7 @@ The data engineering phase aims to:
 
  ## Dataflow
 
- 
+  ![Dataflow](docs/Data_Flow.gif)
  
 
 ## BI & Analytics: Reporting and Insights
