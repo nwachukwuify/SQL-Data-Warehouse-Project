@@ -27,7 +27,7 @@ The data engineering phase aims to:
 - Design a dimensional model (star schema) optimised for analytical querying in SQL Server
 - Enforce data quality rules including deduplication, null handling, type casting, and referential integrity
 - Provide a clear documentation of the data model to support both business and analytics teams
-  !(docs/data_architecture DW.png)
+![Description of Image](images/star_schema.png)
 
 ## BI & Analytics: Reporting and Insights
 ### Objectives
