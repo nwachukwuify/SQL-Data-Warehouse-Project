@@ -45,6 +45,36 @@ The BI and analytics phase aims to:
 - Answer the critical business questions that drive commercial decisions
    ![Star Schema](docs/Star_Schema.png)
 
+  
+The final Power BI suite focuses on three core pillars: Executive Performance, Commercial Intelligence, and Operational Efficiency.
+
+Business Questions & Objectives
+The report is architected to solve critical retail challenges by answering the following high-value business questions:
+
+1. Executive Performance (The "What")
+Revenue Dynamics: What are the total revenue and gross profit trends across the national network for Q1 2024?
+Profitability Guardrails: Which branches are meeting the target Gross Margin %, and where is the cost of goods sold (COGS) eroding profit?
+Geographic Growth: How does revenue distribution compare across different cities and branch codes?
+
+2. Commercial Intelligence (The "Who & Why")
+Product Mix Optimization: Which product lines generate the highest volume versus those generating the highest revenue?
+Customer Segmentation: How do spending patterns differ between Members and Normal customers?
+Demographic Preferences: Is there a correlation between gender, customer type, and product line preference?
+
+3. Operational Efficiency & Quality (The "How")
+Payment Ecosystem: What is the preferred payment method (Cash, Credit Card, E-wallet), and does it impact the Average Transaction Value (ATV)?
+Service Quality Audit: Which branches consistently achieve the highest Customer Satisfaction Ratings, and is there a link between satisfaction and profitability?
+Peak Trading Patterns: On which days and months does the supermarket experience peak transaction volume, and how should staffing/inventory respond?
+
+The Power BI Solution
+The report is structured into a 3-Page Interactive Experience to cater to different stakeholders:
+
+Executive Summary: A high-level view of KPIs (Revenue, Profit, Margin) using a Waterfall analysis and geographic mapping to identify top-performing regions at a glance.
+
+Product & Customer Intelligence: A deep dive into sales volume and demographic behavior, allowing Category Managers to optimize inventory based on actual spending habits.
+
+Branch Operations & Quality Audit: A granular matrix-driven view focused on branch-level health, transactional efficiency, and customer satisfaction scores to drive operational improvements.
+
 ## Technical Specifications
 Database - Microsoft SQL Server
 ETL Method - T-SQL scripts
