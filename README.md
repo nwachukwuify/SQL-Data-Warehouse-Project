@@ -70,11 +70,11 @@ The Power BI Solution
 The report is structured into a 3-Page Interactive Experience to cater to different stakeholders:
 
 Executive Summary: A high-level view of KPIs (Revenue, Profit, Margin) using a Waterfall analysis and geographic mapping to identify top-performing regions at a glance.
-
+  ![Dashboard1](docs/Dashboard_Ex_Summary.png) 
 Product & Customer Intelligence: A deep dive into sales volume and demographic behavior, allowing Category Managers to optimize inventory based on actual spending habits.
-
+ ![Dashboard2](docs/Dashboard_Analysis.png) 
 Branch Operations & Quality Audit: A granular matrix-driven view focused on branch-level health, transactional efficiency, and customer satisfaction scores to drive operational improvements.
-
+![Dashboard3](docs/Dashboard_Audit.png) 
 ## Technical Specifications
 Database - Microsoft SQL Server
 ETL Method - T-SQL scripts
